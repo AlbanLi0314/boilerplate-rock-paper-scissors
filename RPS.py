@@ -99,7 +99,6 @@ def player(prev_play, opponent_history=[]):
     else:
         target = S["lock"]
 
-    # 4) 出手
     if target == "abbey":
         my_move = abbey_counter_move  
     else:
